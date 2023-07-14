@@ -1,6 +1,19 @@
 # ht-mega
 "HT Mega – Absolute Addons for Elementor &lt;= 2.2.0 - Missing Authorization to Privilege Escalation"
 
+```
+The HT Mega plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 2.2.0. This is due to missing validation of the reg_role parameter on the htmega_ajax_register function. This makes it possible for unauthenticated attackers to create administrator accounts.
+```
+Info
+---
+```
+https://www.wordfence.com/threat-intel/vulnerabilities/id/46f3cc62-c2d8-45af-bb92-c2040789cbc0
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+google-dork: inurl:"/wp-content/plugins/ht-mega-for-elementor/"
+```
+
 Requires registration to be enabled.
 
 Proof of Concept
